@@ -43,6 +43,35 @@
     }
   }
 
+  @keyframes implode {
+    100% {transform: scale(0)}
+  }
+/* 
+  html, body {
+    height: 100%;
+    margin: 0;
+    position: relative;
+  } */
+  
+  /* #wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  } */
+  
+  /* #wrap p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgba(255,255,255,.5);
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+  } */
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -54,6 +83,22 @@
     margin: 0 -10px;
     /* padding: 50px;  */
     /* border: 20px; */
+}
+#header {
+    font: 'Varela Round';
+    font-size: 50px;
+    color: #b3b3b3; 
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    -webkit-transform: rotate(-90deg); 
+   -moz-transform: rotate(-90deg);    
+    width:200px;
+    /* width: 25%; */
+    /* margin: 0 10px; */
+    /* padding: 10px; */    
 }
 
 #bio {
@@ -191,3 +236,21 @@
  #plant {
   margin: 0.5px;
 }
+
+.ball {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    pointer-events: none;
+    position: absolute; 
+    width: 10px;
+    height: 10px;
+    border-radius: 30%; 
+    animation: implode 3s ease-in-out;
+    animation-fill-mode: both;
+    opacity: .03;
+  }
+  
+  
