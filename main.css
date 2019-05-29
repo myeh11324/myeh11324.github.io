@@ -254,7 +254,7 @@
     border-radius: 30%; 
     animation: implode 5s ease-in-out;
     animation-fill-mode: both;
-    opacity: .03;
+    opacity: .02;
   }
 
 
