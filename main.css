@@ -249,10 +249,10 @@
     -ms-animation: fadeIn ease 8s;
     pointer-events: none;
     position: absolute; 
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     border-radius: 30%; 
-    animation: implode 3s ease-in-out;
+    animation: implode 5s ease-in-out;
     animation-fill-mode: both;
     opacity: .03;
   }
