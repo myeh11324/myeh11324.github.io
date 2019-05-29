@@ -77,8 +77,8 @@
     align-items: center;
     justify-content: center;
     padding: 70px 0;
-  /* border: 3px solid green; */
-  text-align: center;
+    /* border: 3px solid green; */
+    text-align: center;
     /* text-align: center; */
     /* justify-content: space-around;  */
     /* flex-wrap: wrap; */
@@ -87,22 +87,7 @@
     /* padding: 50px;  */
     /* border: 20px; */
 }
-#header {
-    font: 'Varela Round';
-    font-size: 50px;
-    color: #b3b3b3; 
-    animation: fadeIn ease 8s;
-    -webkit-animation: fadeIn ease 8s;
-    -moz-animation: fadeIn ease 8s;
-    -o-animation: fadeIn ease 8s;
-    -ms-animation: fadeIn ease 8s;
-    -webkit-transform: rotate(-90deg); 
-   -moz-transform: rotate(-90deg);    
-    width:200px;
-    /* width: 25%; */
-    /* margin: 0 10px; */
-    /* padding: 10px; */    
-}
+
 
 #bio {
     font: 'Varela Round';
@@ -113,7 +98,7 @@
     -moz-animation: fadeIn ease 8s;
     -o-animation: fadeIn ease 8s;
     -ms-animation: fadeIn ease 8s;
-    width: 25%;
+    width: 30%;
     /* margin: 0 10px; */
     padding: 10px;
     /* align-self: auto; */
@@ -126,7 +111,8 @@
     -moz-animation: fadeIn ease 8s;
     -o-animation: fadeIn ease 8s;
     -ms-animation: fadeIn ease 8s;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    margin-left: 5%;
     /* width: 25%; */
     /* padding: 10px; */
 }
@@ -140,7 +126,7 @@
   -moz-animation: fadeIn ease 8s;
   -o-animation: fadeIn ease 8s;
   -ms-animation: fadeIn ease 8s;
-  width: 37%;
+  width: 50%;
   /* margin: 0 10px; */
   padding: 10px;
   /* align-self: auto; */
@@ -155,7 +141,7 @@
   -moz-animation: fadeIn ease 8s;
   -o-animation: fadeIn ease 8s;
   -ms-animation: fadeIn ease 8s;
-  width: 37%;
+  width: 50%;
   /* margin: 0 10px; */
   padding: 10px;
   /* align-self: auto; */
@@ -170,7 +156,7 @@
   -moz-animation: fadeIn ease 8s;
   -o-animation: fadeIn ease 8s;
   -ms-animation: fadeIn ease 8s;
-  width: 25%;
+  width: 50%;
   /* margin: 0 10px; */
   padding: 10px;
   /* align-self: auto; */
