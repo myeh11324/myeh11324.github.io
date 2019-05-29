@@ -1,1 +1,73 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <Link rel='stylesheet' href='./main.css'>
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <title>Milly Yeh</title>
+  </head>
+  <body>
+    <script src="./app.js" defer></script>
+
+    <div class='navbar'>
+        <a id="about-button" class="hvr-sink" href="#about">about</a>
+        <a id="greenhouse-button" class='hvr-sink' href="#greenhouse">the greenhouse</a>
+        <a id="tunecast-button" class='hvr-sink' href="#tunecast">tunecast</a>
+        <a id="lingua-button" class='hvr-sink' href="#lingua">lingua</a>
+    </div>
+    
+    <div class='wrapper'>
+      <p id='bio'>
+        hello world, i'm milly. i started my career as an electrical engineer in michigan working in power 
+        systems, but found my passion in code. i love learning, solving problems, building things and
+        <span id='line-through'>seeing</span> making creative ideas come to fruition. five months ago, i moved to nyc to 
+        enroll in a dev bootcamp and fell in love with the city. i completed the immersive program at fullstack academy 
+        recently and am seeking a software engineering position. please reach out if you'd like to chat!
+          <a href="https://www.linkedin.com/in/milly-yeh" class="fa fa-linkedin"></a>
+          <a href="https://github.com/myeh11324" class="fa fa-github"></a>
+          <a href="mailto:yehmilly01@gmail.com"><img id='gmail' src="https://img.icons8.com/color/15/000000/gmail.png"></a> <br /><br />
+          ----> <a href="https://drive.google.com/file/d/130t50qESqck9nXDdnBC8O2R-aIFj7Yzm/view?usp=sharing">resumé</a>
+      </p>
+
+      <p id='greenhouse'>
+        this was my first big project in the realm of web dev. it was a fullstack eCommerce app built 
+        using node, express, react/redux, and postgreSQL/sequelize. a lot of interesting logic went into
+        building this application, particularly concerning users and their shopping carts. i had a lot of 
+        fun working on this - sure it's not the cleanest code <span id='italicize'>ever</span>, but i learned a lot about structuring 
+        react components and effectively using redux to manage state, making RESTful api routes, team collaboration
+        using the agile/scrum methodology and following proper git workflow, the list goes on. <br /><br /><br />
+        <img src="https://media.giphy.com/media/1AjE1Au3CjUi7CTWwl/giphy.gif"/> <br /><br /><br />
+        check out my deployed app here ----> <a href="https://grace-shopper-plants.herokuapp.com/">&#127807;</a>
+      </p>
+
+      <p id='tunecast'>
+        i started this project during a four-day hackathon. the idea was to grab a user's current 
+        weather data and generate song recommendations based on the mood that matches the weather
+        using react, node.js, and the spotify api. admittedly, the spotify api gave me a massive
+        headache in the beginning - i found the  documentation to be quite confusing to navigate. after spending additional
+        time and research to understand the authentication/authorization process, i was able to get past this
+        and make my api calls successfuly. i recently jumped back on this project and am pleased by its progress. 
+        next up, i'd like to make some adjustments to the mood-matching feature and add styling.
+        music is one of my life's greatest joys and i really enjoyed the experience of building a music-themed app. <br /><br /><br />
+        <img src="https://media.giphy.com/media/lzKDCt0fP4w5KGRe6R/giphy.gif" /> <br /><br /><br />
+        check out the repo here ----> <a href="https://github.com/myeh11324/Tunecast">&#127926;</a>
+      </p>
+
+      <p id='lingua'>
+        this was the capstone project my team and i built during our time at fullstack. our idea
+        started as a VR language-learning game (which quickly got shot down by our instructor)
+        and evolved into a language-learning platform consisting of a google chrome extension
+        written in vanilla js and jquery, data storage/management using firebase, and a mobile application 
+        built with react native/redux. i had an incredible time working on this. i loved the language learning 
+        concept from the get-go and i was blessed with fantastic teammates. this is something that i would 
+        absolutely download and use. what's duolingo?  <br /><br />
+        check out the repo here ----> <a href="https://github.com/1810-lingua">&#127757;</a>
+      </p>
+
+      <div id='pic'>
+          <img src="https://i.ibb.co/ZXXgQ5X/imageedit-11-5272024299.gif" width="220" height="200"/>
+      </div>
+    </div>
+  </body>
+</html>
