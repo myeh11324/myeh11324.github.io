@@ -46,6 +46,13 @@
   @keyframes implode {
     100% {transform: scale(0)}
   }
+
+  /* @media only screen and (max-width: 360px) {
+    [id*="greenhouse-screencast"] {
+      width: 80%;
+    }
+  } */
+
 /* 
   html, body {
     height: 100%;
@@ -78,6 +85,7 @@
     justify-content: center;
     padding: 70px 0;
     /* background-color: #F4EEE6;  */
+    /* margin: 50px; */
     /* border: 3px solid green; */
     text-align: center;
     /* text-align: center; */
@@ -106,7 +114,8 @@
 }
 
 #pic {
-    /* max-width: 80%; */
+    max-width: 100%;
+    height: auto;
     animation: fadeIn ease 8s;
     -webkit-animation: fadeIn ease 8s;
     -moz-animation: fadeIn ease 8s;
@@ -131,6 +140,11 @@
   /* margin: 0 10px; */
   padding: 10px;
   /* align-self: auto; */
+}
+
+.screencast {
+  max-width: 100%;
+  height: auto;
 }
 
 #tunecast {
@@ -175,6 +189,7 @@
 
 .navbar {
   background-color:beige;
+  /* background-color: #ffccff; */
   margin: 50px;
   overflow: hidden;
 }

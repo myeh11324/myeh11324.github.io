@@ -120,6 +120,3 @@ linguaButton.addEventListener('click', e => {
     profPic.style.display = "none"
 })
 
-
-// let bio = document.querySelector('.bio')
-// bio.innerHTML ='test'
