@@ -78,45 +78,30 @@ aboutButton.addEventListener('click', e => {
 
 
 greenhouseButton.addEventListener('click', e => {
-    // bio.style.visibility = "hidden"
     bio.style.display = "none"
-    // tunecast.style.visibility = "hidden"
     tunecast.style.display = "none"
-    // lingua.style.visibility = "hidden"
     lingua.style.display = "none"
-    // greenhouse.style.visibility = "visible"
     greenhouse.style.display = "block"
     //on click, i want to hide previous text and display greenhouse text 
     greenhouse.innerHTML = greenhouseText
-    // profPic.style.visibility = "hidden"
     profPic.style.display = "none"
 })
 
 tunecastButton.addEventListener('click', e => {
-    // bio.style.visibility = "hidden"
     bio.style.display = "none"
-    // greenhouse.style.visibility = "hidden"
     greenhouse.style.display = "none"
-    // lingua.style.visibility = "hidden"
     lingua.style.display = "none"
-    // tunecast.style.visibility = "visible"
     tunecast.style.display = "block"
     tunecast.innerHTML = tunecastText
-    // profPic.style.visibility = "hidden"
     profPic.style.display = "none"
 })
 
 linguaButton.addEventListener('click', e => {
-    // bio.style.visibility = "hidden"
     bio.style.display = "none"
-    // greenhouse.style.visibility = "hidden"
     greenhouse.style.display = "none"
-    // tunecast.style.visibility = "hidden"
     tunecast.style.display = "none"
-    // lingua.style.visibility = "visible"
     lingua.style.display = "block"
     lingua.innerHTML = linguaText
-    // profPic.style.visibility = "hidden"
     profPic.style.display = "none"
 })
 
